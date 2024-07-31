@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uDsib/AuujqMZGK9PjZJcPICyAPsqnikpPu6QUwzP9vJWWjvNbyTxm4h3RHrorwpqpbxdZNB9NrMnvuwE2PKjQ==",
+  "success": true,
+  "projectFilePath": "E:\\All Projects\\GitProjects\\Microservices\\EmployeeMicroService\\EmployeeMicroService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Atul Parab\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Atul Parab\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Atul Parab\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Atul Parab\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Atul Parab\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Atul Parab\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
