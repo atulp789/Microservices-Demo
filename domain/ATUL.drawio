@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="IRCkPahMacRs8cpZ04dE">
+    <mxGraphModel dx="1434" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1DNhweyN40086tkbnjGj-4" value="Employee&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-700" width="380" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-5" value="class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-4">
+          <mxGeometry y="29" width="380" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-6" value="- id : Long&lt;div&gt;- ssn : byte[] / base64&lt;/div&gt;&lt;div&gt;- nationality : Nationality&lt;/div&gt;&lt;div&gt;- passportNo : String&lt;br&gt;&lt;div&gt;- lastName : String&lt;/div&gt;&lt;div&gt;- firstName : String&lt;/div&gt;&lt;div&gt;- middleName : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- title : String&lt;/div&gt;&lt;div&gt;- birthdate : Date&lt;/div&gt;&lt;div&gt;- employeeType : EmployeeType&lt;/div&gt;&lt;div&gt;- dateJoined - Date&lt;/div&gt;&lt;div&gt;- dateExited - Date&lt;/div&gt;&lt;div&gt;- address : List&amp;lt;Address&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getFullname() : string&lt;/div&gt;&lt;div&gt;+ getTitle() : String&lt;/div&gt;&lt;div&gt;+ getAge() : Integer&lt;/div&gt;&lt;div&gt;+ getEmployeeType() : EmployeeType&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-4">
+          <mxGeometry y="54" width="380" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-7" value="EmployeeType" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-700" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-8" value="ENUM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-7">
+          <mxGeometry y="29" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-9" value="FTE&lt;div&gt;CONTRACTOR&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-7">
+          <mxGeometry y="54" width="180" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-10" value="Address" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-530" width="310" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-11" value="class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-10">
+          <mxGeometry y="29" width="310" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-12" value="id : Long&lt;div&gt;addressLine1 : String&lt;/div&gt;&lt;div&gt;addressLine2 : String&lt;/div&gt;&lt;div&gt;city : String&lt;/div&gt;&lt;div&gt;state : String&lt;/div&gt;&lt;div&gt;zipCode : String&lt;/div&gt;&lt;div&gt;county : String&lt;/div&gt;&lt;div&gt;addressType : addressType&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-10">
+          <mxGeometry y="54" width="310" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-16" value="AddressType" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-700" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-17" value="ENUM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-16">
+          <mxGeometry y="29" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-18" value="&lt;div&gt;CURRENT&lt;/div&gt;&lt;div&gt;MAILING&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-16">
+          <mxGeometry y="54" width="180" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-19" value="Nationality" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-850" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-20" value="class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-19">
+          <mxGeometry y="29" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1DNhweyN40086tkbnjGj-21" value="&lt;div&gt;-id : smallInt&amp;nbsp;&lt;br&gt;-desc : String&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="1DNhweyN40086tkbnjGj-19">
+          <mxGeometry y="54" width="180" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
