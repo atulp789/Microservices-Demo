@@ -1,15 +1,15 @@
 using EmployeeMicroService.Data;
+using EmployeeMicroService.Extensions;
+using EmployeeMicroService.Middleware;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddDbContext<DataContext>(opt =>
-{
-    opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConn"));
-});
+builder.Services.AddApplicationServices(configuration);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -24,10 +24,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// app.UseHttpsRedirection();
+app.UseMiddleware<ExceptionMiddleware>();
+app.UseHttpsRedirection();
 
-// app.UseAuthorization();
+app.UseAuthorization();
 
-// app.MapControllers();
+app.MapControllers();
 
 app.Run();

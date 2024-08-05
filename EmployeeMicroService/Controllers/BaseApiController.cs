@@ -3,7 +3,7 @@
 namespace EmployeeMicroService;
 
 [ApiController]
-[Route("api/[controller]/[action]")]
+[Route("api/[controller]")]
 public class BaseApiController : ControllerBase
 {
     public BaseApiController()

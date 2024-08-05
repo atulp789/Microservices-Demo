@@ -21,7 +21,7 @@ namespace EmployeeMicroService.Entities
         public int Nationality { get; set; }
         public DateTime EntryDate { get; set; }
         public DateTime JoiningDate { get; set; }
-        public DateTime? ExitDate { get; set; }
+        public DateTime? ExitDate { get; set; } = null;
         public int EmployeeTypeId { get; set; }
         public string SsnNumber { get; set; }
         public string PassportNumber { get; set; }
