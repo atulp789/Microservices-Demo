@@ -40,7 +40,7 @@ public class EmployeeController : BaseApiController
         return Ok(list);
     }
 
-    [HttpGet("{id:int}")] // api/Get/1
+    [HttpGet("{id}")] // api/Get/1
     public async Task<ActionResult<Employee>> Get(int id)
     {
         var employee = await _unitOfWork.EmployeeRepository.GetEmployeesAsync(id);
