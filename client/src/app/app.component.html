@@ -1,0 +1,8 @@
+<h2>{{title}}</h2>
+
+<ul>
+  @for(emp of employees; track emp.id)
+  {
+  <li>{{emp.employeeNo}} - {{emp.firstName}} {{emp.lastName}}</li>
+  }
+</ul>
